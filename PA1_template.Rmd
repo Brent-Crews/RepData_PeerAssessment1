@@ -4,12 +4,11 @@ output:
   html_document:
     keep_md: true
 ---
-
 ## Part 1)
 ## 1. Loading and preprocessing the data
 ## 1.1. Load the data (i.e. read.csv())
 ```{r}
-setwd("~/Desktop")
+setwd("/Users/brecre01/Desktop")
 activity <- read.csv("activity.csv",colClasses = c("numeric", "character","integer"))
 ```
 ## 1.2. Process/transform the data (if necessary) into a format suitable for your analysis
