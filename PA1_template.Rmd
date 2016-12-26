@@ -10,7 +10,7 @@ output:
 ## 1.1. Load the data (i.e. read.csv())
 ```{r}
 setwd("~/Desktop")
-activity <- read.csv("./reproducible_project1/activity.csv",colClasses = c("numeric", "character","integer"))
+activity <- read.csv("activity.csv",colClasses = c("numeric", "character","integer"))
 ```
 ## 1.2. Process/transform the data (if necessary) into a format suitable for your analysis
 ```{r}
